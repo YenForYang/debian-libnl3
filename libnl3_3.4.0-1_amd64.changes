@@ -1,0 +1,101 @@
+Format: 1.8
+Date: Wed, 16 May 2018 10:32:27 +0200
+Source: libnl3
+Binary: libnl-3-200 libnl-cli-3-200 libnl-utils libnl-genl-3-200 libnl-idiag-3-200 libnl-nf-3-200 libnl-route-3-200 libnl-xfrm-3-200 libnl-3-dev libnl-cli-3-dev libnl-genl-3-dev libnl-idiag-3-dev libnl-nf-3-dev libnl-route-3-dev libnl-xfrm-3-dev libnl-3-200-dbg libnl-3-200-udeb libnl-genl-3-200-udeb
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 3.4.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Heiko Stuebner <mmind@debian.org>
+Changed-By: Heiko Stuebner <mmind@debian.org>
+Description:
+ libnl-3-200 - library for dealing with netlink sockets
+ libnl-3-200-dbg - debug symbols for libnl3
+ libnl-3-200-udeb - library for dealing with netlink sockets (udeb)
+ libnl-3-dev - development library and headers for libnl-3
+ libnl-cli-3-200 - library for dealing with netlink sockets - cli helpers
+ libnl-cli-3-dev - development library and headers for libnl-cli-3
+ libnl-genl-3-200 - library for dealing with netlink sockets - generic netlink
+ libnl-genl-3-200-udeb - library for dealing with netlink sockets - generic netlink (udeb)
+ libnl-genl-3-dev - development library and headers for libnl-genl-3
+ libnl-idiag-3-200 - library for dealing with netlink sockets - inetdiag interface
+ libnl-idiag-3-dev - development library and headers for libnl-genl-3
+ libnl-nf-3-200 - library for dealing with netlink sockets - netfilter interface
+ libnl-nf-3-dev - development library and headers for libnl-nf-3
+ libnl-route-3-200 - library for dealing with netlink sockets - route interface
+ libnl-route-3-dev - development library and headers for libnl-route-3
+ libnl-utils - Utilities for dealing with netlink sockets
+ libnl-xfrm-3-200 - library for dealing with netlink sockets - package transformation
+ libnl-xfrm-3-dev - development library and headers for libnl-xfrm-3
+Closes: 880631
+Changes:
+ libnl3 (3.4.0-1) unstable; urgency=low
+ .
+   * New upstream release (Closes: #880631)
+   * Update standards to 4.1.4:
+     - Make libnl-3-200-dbg priority optional
+     - Include upstream signing key
+     - use https in #Vcs-Browse
+   * Update watch file to new github location and add signature check
+Checksums-Sha1:
+ ab06cf9c634628989e20871e6c30a304b1f71da3 978208 libnl-3-200-dbg_3.4.0-1_amd64.deb
+ ed1186964c2242d89b69cdd5d1036707fa73eb91 92260 libnl-3-200-udeb_3.4.0-1_amd64.udeb
+ 608088bca149c87b1ead06aa738fd6ebe7a54303 109992 libnl-3-200_3.4.0-1_amd64.deb
+ 3fa26119ba00d22253821dcf36369204d7ff800f 818948 libnl-3-dev_3.4.0-1_amd64.deb
+ 7ae58a4e80411abb9acf84771ec12a5703f5c3ed 51116 libnl-cli-3-200_3.4.0-1_amd64.deb
+ 22535348248e303ff96cce36c07df7594eea921e 196096 libnl-cli-3-dev_3.4.0-1_amd64.deb
+ d615d1232b6d4ae7c720ffaa611a889eef3f4963 10064 libnl-genl-3-200-udeb_3.4.0-1_amd64.udeb
+ 91dde734a93aa0d52728adf096433c0b879bf232 24504 libnl-genl-3-200_3.4.0-1_amd64.deb
+ 4ec34ca8b5af0c90375347cbda59b10e588da201 217264 libnl-genl-3-dev_3.4.0-1_amd64.deb
+ a6d929beb033970b824971dc41dab28b3c162d23 25784 libnl-idiag-3-200_3.4.0-1_amd64.deb
+ 4e2860071c8446dd6070f2eb3ca1bf1894947db2 253808 libnl-idiag-3-dev_3.4.0-1_amd64.deb
+ ced0cebe53387da1f8b33c4b808c58d4cc94a37b 43844 libnl-nf-3-200_3.4.0-1_amd64.deb
+ 1b0a4308f758229f265febd177736d99682f38ce 733820 libnl-nf-3-dev_3.4.0-1_amd64.deb
+ ff97ba153122c9cd27691fa133ed94dcd34c2018 206936 libnl-route-3-200_3.4.0-1_amd64.deb
+ 7451af368789baf69ff94cc63b0c2f618d62f193 2838740 libnl-route-3-dev_3.4.0-1_amd64.deb
+ 4e42a82ed5fa4d08c6ae3d7df360eb1140029dec 113128 libnl-utils_3.4.0-1_amd64.deb
+ 502dc1877b77a0074a17e49151598c8df133b9ea 41276 libnl-xfrm-3-200_3.4.0-1_amd64.deb
+ f5b1e5925734c2ab96cb5c74a9c8e28d041ac33d 459268 libnl-xfrm-3-dev_3.4.0-1_amd64.deb
+ 5183864d17722842b4ab01628d55e702e641d564 10431 libnl3_3.4.0-1_amd64.buildinfo
+Checksums-Sha256:
+ e4c82d131070a0aa1213be047fec184d66e1bdaf806701e691615c5d1904093d 978208 libnl-3-200-dbg_3.4.0-1_amd64.deb
+ ecd2922d7874bf3bef038c336b9589de58faa0bf250ca906dc27e45d7d242722 92260 libnl-3-200-udeb_3.4.0-1_amd64.udeb
+ 53a7f026e8bf9bba875050b5cacf88b0eb0cce660d8f7c84e8eef837b676e051 109992 libnl-3-200_3.4.0-1_amd64.deb
+ d3b3c5584034c34b2624fbe2145ffaf61efeff3598d48d8f6208c888f774fd58 818948 libnl-3-dev_3.4.0-1_amd64.deb
+ 5393df08a6ad4e2660b61d3f7aa80fa12849ec99a4dec2a5741c09c56b02f7d0 51116 libnl-cli-3-200_3.4.0-1_amd64.deb
+ 64814ef0500148352f75f32db1b76d9e12c0bef9524c391971c399bc097ef808 196096 libnl-cli-3-dev_3.4.0-1_amd64.deb
+ d1742eb0d219ffa43b13a44e60ded74259d8fbd2ffa715730d43565f301af13a 10064 libnl-genl-3-200-udeb_3.4.0-1_amd64.udeb
+ 0a84ec3d287df422ed961331b268c2d7e2e919a3396a417043affc205c984b9a 24504 libnl-genl-3-200_3.4.0-1_amd64.deb
+ 9a76bd71ec120b06ccce82c9f3a6859931e04fa11f1f43a22991d7ede0ca5388 217264 libnl-genl-3-dev_3.4.0-1_amd64.deb
+ a8cceaa59c8d373e83f40f846c4b538ce9f5e91b7bfbe1b0e4b22d24f307b5e6 25784 libnl-idiag-3-200_3.4.0-1_amd64.deb
+ 41953118a5d53957555551d4cad877ac27f1b867db479e2e8a23cb61664bad33 253808 libnl-idiag-3-dev_3.4.0-1_amd64.deb
+ fe9124756977e6849641e0c24d6be1df273b013a276a89d1c92817b2073fbc95 43844 libnl-nf-3-200_3.4.0-1_amd64.deb
+ 0ad2ffa41f2486848cc2c3b0d84397bd25bb83fda0f7924d922eb33425b76e20 733820 libnl-nf-3-dev_3.4.0-1_amd64.deb
+ fc0ae0b68e08ec74c09c8f8a078672d6c5c42d991b0df0a6500f1210cc56dcea 206936 libnl-route-3-200_3.4.0-1_amd64.deb
+ e47a6306cb14f0d6de8c51baf933c953c43df0826149105f0b182f64f79e5eb3 2838740 libnl-route-3-dev_3.4.0-1_amd64.deb
+ a3f5bf924a8b31da778f1e6a6c33e972f3df5a208f278a37c91c4853998d8406 113128 libnl-utils_3.4.0-1_amd64.deb
+ 5447ecb4532780320e961a65c74c2b8cd1b128704e8d03c82742250fc19ec3c6 41276 libnl-xfrm-3-200_3.4.0-1_amd64.deb
+ b331d38eb8df0473f2960384bcb01071133b756bcada012dce24b26b757a39fc 459268 libnl-xfrm-3-dev_3.4.0-1_amd64.deb
+ 1c259d978d35a0f89fe9819ba3d4cb5505f02969ff7c82d1f5b120ab08a297cd 10431 libnl3_3.4.0-1_amd64.buildinfo
+Files:
+ f9035fca8a4158b423b9670e328fced1 978208 debug optional libnl-3-200-dbg_3.4.0-1_amd64.deb
+ fb5a9f4212a3f258866b577462b6d48a 92260 debian-installer optional libnl-3-200-udeb_3.4.0-1_amd64.udeb
+ 37a0818a793a51c41fd5637403b1ed73 109992 libs optional libnl-3-200_3.4.0-1_amd64.deb
+ f5899ef2c77335f7a9e37e224bf03fa5 818948 libdevel optional libnl-3-dev_3.4.0-1_amd64.deb
+ 805b9e960fde40b477207dc511036522 51116 libs optional libnl-cli-3-200_3.4.0-1_amd64.deb
+ 2b1fc5dc868a38e11ce91213b521f1d2 196096 libdevel optional libnl-cli-3-dev_3.4.0-1_amd64.deb
+ 03e9d5004ab65915132a393337c06458 10064 debian-installer optional libnl-genl-3-200-udeb_3.4.0-1_amd64.udeb
+ 7b9db59afc57ed1311236e26aeefc753 24504 libs optional libnl-genl-3-200_3.4.0-1_amd64.deb
+ 956ce9b47f5019be75e345f4159f7ad0 217264 libdevel optional libnl-genl-3-dev_3.4.0-1_amd64.deb
+ c6718e565e460c126525d7836daf7bef 25784 libs optional libnl-idiag-3-200_3.4.0-1_amd64.deb
+ ce12cf6e3e1c24fc799664e8618667fa 253808 libdevel optional libnl-idiag-3-dev_3.4.0-1_amd64.deb
+ 540f0bdd6068d5a6a6c9d5ed6886f257 43844 libs optional libnl-nf-3-200_3.4.0-1_amd64.deb
+ d59f79c254ccbcd9fb50099cf585177c 733820 libdevel optional libnl-nf-3-dev_3.4.0-1_amd64.deb
+ 6fe52ab24d62c91538ca4dab46a913b6 206936 libs optional libnl-route-3-200_3.4.0-1_amd64.deb
+ 851e4fffbf809bf437ca6d76b94b1b42 2838740 libdevel optional libnl-route-3-dev_3.4.0-1_amd64.deb
+ 9716d50159ee5a304f0c7bcad870f121 113128 libs optional libnl-utils_3.4.0-1_amd64.deb
+ 6b7203521e50467b873849fd887a3c21 41276 libs optional libnl-xfrm-3-200_3.4.0-1_amd64.deb
+ 0dc023b23331652783b45c830d23453b 459268 libdevel optional libnl-xfrm-3-dev_3.4.0-1_amd64.deb
+ 65ffae0773e8104f18021c63383257fe 10431 net optional libnl3_3.4.0-1_amd64.buildinfo
+Package-Type: udeb

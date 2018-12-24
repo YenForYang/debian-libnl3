@@ -1,0 +1,5 @@
+debian/etc-libnl-3.diff -p1
+debian/no-symvers.diff -p1
+debian/__nl_cache_ops_lookup-unstatic.diff -p1
+debian/_nl_socket_generate_local_port_no_release.diff -p1
+debian/tca_set_kind.diff -p1

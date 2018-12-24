@@ -1,0 +1,15 @@
+Package: libnl-3-200-udeb
+Source: libnl3
+Version: 3.4.0-1
+Architecture: amd64
+Maintainer: Heiko Stuebner <mmind@debian.org>
+Installed-Size: 322
+Depends: libc6-udeb (>= 2.27), libgcc1
+Section: debian-installer
+Priority: optional
+Description: library for dealing with netlink sockets
+ This is a library for applications dealing with netlink sockets.
+ The library provides an interface for raw netlink messaging and various
+ netlink family specific interfaces.
+ .
+ This package is a udeb. It's only useful inside of debian-installer.

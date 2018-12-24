@@ -1,0 +1,3 @@
+shlibs:Depends=libc6-udeb (>= 2.27), libgcc1, libnl-3-200-udeb
+misc:Depends=
+misc:Pre-Depends=
